@@ -23,3 +23,4 @@ def create_character(name, strength, intelligence, charisma):
     int_dots = '●' * intelligence + '○' * (10 - intelligence)
     cha_dots = '●' * charisma + '○' * (10 - charisma)
     return f"{name}\nSTR {str_dots}\nINT {int_dots}\nCHA {cha_dots}"
+prin
